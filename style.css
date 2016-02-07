@@ -1,0 +1,93 @@
+html, body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+header, footer {
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+}
+header {
+  color: #555;
+  margin-bottom: 25px;
+}
+footer{
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 25px;
+}
+p {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.content {
+  background-color: white;
+  margin: 50px 0;
+  color: #666;
+}
+nav {
+  margin: 25px 0;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  padding: 12px;
+  margin: 3px;
+  width: 95%;
+  font-weight: bold;
+}
+nav  ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+    margin: 25px 0 12px;
+    width: 95%;
+    height: auto;
+}
+.profile-img {
+    width: 75%;
+}
+.margin-right {
+  margin-right: 10px;
+}
+.contact-info{
+  margin: 0;
+  padding: 0;
+}
+.contact-info li {
+  list-style: none;
+}
+.contact-info a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+footer p {
+  margin-bottom: 25px;
+  max-width: 95%;
+}
+footer div h4 {
+  color: #333;
+}
+.to-top{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 45px 0;
+  padding: 25px 0;
+  border-top: 1px solid #ccc;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
