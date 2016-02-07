@@ -27,6 +27,9 @@ footer{
   color: #777;
   margin-top: 25px;
 }
+.footer-nav{
+  display: none;
+}
 .profile-div {
   background-color: #EEE;
   max-width: 75%;
@@ -110,4 +113,73 @@ footer div h4 {
 }
 .right{
   float: right;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+@media (min-width: 768px){
+  .wrapper{
+    max-width: 98%;
+  }
+  section{
+    max-width: 49%;
+    float: left;
+    margin: 0.5%
+  }
+  footer{
+    clear: left;
+  }
+  nav li{
+    display: inline;
+    background-color: initial;
+  }
+  header p {
+    max-width: 55%;
+    margin: 0 1.25%;
+    float: left;
+    text-align: left;
+  }
+  header.wrapper{
+    max-width: 100%;
+  }
+  .profile-div{
+    max-width: 40%;
+    float: right;
+    margin: 0 1.25%;
+  }
+  .right{
+    display: none;
+  }
+  .footer-nav{
+    display: inline;
+    float: right;
+    margin: 0;
+  }
+  header nav {
+    margin-bottom: 45px;
+    font-size: 1rem;
+  }
+  footer p {
+    max-width: 60%;
+  }
+}
+@media (min-width: 1024px){
+  section{
+    max-width: 32%;
+    float: left;
+    margin: 0.5%
+  }
+  .name{
+    float: left;
+    margin-left: 1.5%;
+  }
+  header nav {
+    float: right;
+  }
 }
