@@ -67,6 +67,12 @@ nav li {
   width: 95%;
   font-weight: bold;
 }
+nav a{
+  text-decoration: none;
+}
+.to-top a{
+  color: #666;
+}
 nav  ul {
   margin: 0;
   padding: 0;
