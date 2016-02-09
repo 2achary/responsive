@@ -57,8 +57,7 @@ p {
 nav {
   margin: 25px 0;
 }
-nav li {
-  list-style: none;
+nav a {
   display: inline-block;
   color: #555;
   background-color: white;
@@ -141,7 +140,7 @@ footer div h4 {
   footer{
     clear: left;
   }
-  nav li{
+  nav a{
     display: inline;
     background-color: initial;
   }
