@@ -1,0 +1,23 @@
+@mixin font($font_name){
+  font-family: $font_name;
+}
+
+@mixin header_footer(){
+  background-color: $color-bg-dark;
+  margin: 0;
+  padding: 1px 0;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

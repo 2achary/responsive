@@ -1,0 +1,28 @@
+nav {
+    margin: 25px 0;
+
+    ul {
+        @extend %padding-margin-0;
+        list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $color-text-header;
+      background-color: $color-bg-light;
+      padding: 12px;
+      margin: 3px;
+      width: 95%;
+      font-weight: bold;
+      @include tablet {
+        display: inline;
+        background-color: initial;
+      }
+   }
+}
+.to-top a{
+  color: $color-text-header;
+}

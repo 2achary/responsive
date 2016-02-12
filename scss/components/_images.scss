@@ -1,0 +1,24 @@
+img {
+    margin: 25px 0 12px;
+    width: 95%;
+    height: auto;
+}
+.profile-img {
+    width: 75%;
+}
+
+.profile-div {
+  background-color: $color-profile-img-bg;
+  max-width: 75%;
+  @extend %margin-0-auto;
+  margin-bottom: 45px;
+  @include tablet {
+    max-width: 40%;
+    float: right;
+    margin: 0 1.25%;
+  }
+}
+.profile-img {
+  max-width: 50%;
+  border-radius: 100%;
+}

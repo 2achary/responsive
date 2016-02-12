@@ -1,0 +1,42 @@
+html, body {
+  text-align: center;
+  @extend %padding-margin-0;
+  @include font('Arial');
+}
+
+h2, h1, h3 {
+  color: $color-text-heading;
+}
+h1 {
+  font-size: $font-size-header;
+}
+p {
+  max-width: 80%;
+  @extend %margin-0-auto;
+}
+
+.wrapper {
+  max-width: 90%;
+  @extend %margin-0-auto;
+  @include tablet {
+    max-width: 98%;
+  }
+}
+.content {
+  background-color: white;
+  font-size: $font-size-p;
+  margin: 50px 0;
+  color: $color-text-heading;
+}
+section {
+  @include tablet {
+    max-width: 49%;
+    float: left;
+    margin: 0.5%
+  }
+  @include desktop {
+    max-width: 32%;
+    float: left;
+    margin: 0.5%
+  }
+}
